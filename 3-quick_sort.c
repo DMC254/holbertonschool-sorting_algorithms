@@ -43,7 +43,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 				swap_ints(array + below, array + above);
 				print_array(array, size);
 			}
-			above++
+			above++;
 		}
 	}
 
